@@ -1,0 +1,142 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700;800;900&family=Roboto:ital,wght@0,100;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Rubik:ital,wght@0,500;1,400;1,700&display=swap');
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+}
+body{
+    background-color: hsl(210, 46%, 95%);
+}
+h1{
+    color: hsl(0, 0%, 100%);
+    font-size: 20px;
+    position: relative;
+    z-index: 1;
+    margin: 0 30px 5px 30px;
+}
+h2{
+    font-size: 14px;
+    color: hsl(0, 0%, 100%);
+    margin-left: 20px;
+}
+h3{
+    margin-left: 20px;
+    font-size: 12px;
+    color: hsla(0, 0%, 100%, 0.425);
+}
+p{
+    font-size: 13px;
+    color: hsla(0, 0%, 100%, 0.425);
+    margin: 20px 30px 0 30px;
+}
+
+.blue{
+    color: hsl(217, 19%, 35%);
+    font-size: 14px;
+}
+.h1__blue{
+    color: hsl(217, 19%, 35%);
+    font-size: 20px;
+}
+.gray{
+    color: hsla(217, 19%, 35%, 0.473);
+    font-size: 14px;
+}
+.image{
+    border-radius: 50%;
+    border: 2px solid white;
+}
+.image__pa{
+    border-radius: 50%;
+    border: 2px solid rgb(174, 0, 255);
+}
+
+.main__Box{
+    padding: 100px 150px 80px 200px;
+    display: flex;
+}
+.left__Box{
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+    margin-right: 20px;
+}
+.left__Box-1{
+    
+    display: flex;
+    margin-bottom: 30px;
+    
+}
+.left__Box-1--firstHalf{
+
+    margin-right: 20px;
+    background-color: hsl(263, 55%, 52%);
+    width: 900px;
+    padding: 20px;
+    border-radius: 10px;
+    position: relative;
+}
+.quotation{
+    position: absolute;
+    top: 0px;
+    right: 100px;
+    width: 120px;
+    height: 150px;
+    z-index: 0;
+   
+}
+  
+.left__Box-1--SecondHalf{
+    background-color:  hsl(217, 19%, 35%);
+    width: 450px;
+    border-radius: 10px;
+    padding: 20px;
+}
+.left__Box-2{
+   
+    display: flex;
+}
+.left__Box-2--FirstHalf{
+    padding: 20px;
+    background-color: hsl(0, 0%, 100%);
+    border-radius: 10px;
+    height: 350px;
+}
+.left__Box-2--SecondHalf{
+   
+    margin-left: 20px;
+    background-color: hsl(219, 29%, 14%);
+    border-radius: 10px;
+    padding: 20px;
+}
+
+.right__Box{
+    background-color: hsl(0, 0%, 100%);
+    border-radius: 10px;
+    
+}
+.img__name{
+    display: flex;
+    padding: 20px;
+    align-items: center;
+}
+
+@media (max-width: 1670px) {
+    .main__Box{
+        display: flex;
+        flex-direction: column;
+    }
+    .left__Box{
+        display: flex;
+        flex-direction: column;
+    }
+    .left__Box-1{
+        display: flex;
+        flex-direction: column;
+    }
+    .left__Box-2{
+        display: flex;
+        flex-direction: column;
+    }
+}
